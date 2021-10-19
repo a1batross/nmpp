@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=windows-1251"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nmpp: nmppsSum_1</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">nmppsSum_1<div class="ingroups"><a class="el" href="group__integer.html">Целочисленные функции</a> &raquo; <a class="el" href="group__nmpps_group__.html">Векторные функции</a> &raquo; <a class="el" href="group__v_arithmetics.html">Арифметические операции</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Возвращает сумму всех элементов вектора.  
+<a href="#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ga1a151a3ed4f8bcc1acee825d4b4d42e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nmpps_sum__1.html#ga1a151a3ed4f8bcc1acee825d4b4d42e1">nmppsSum_1</a> (const <a class="el" href="nmtype_8h.html#a996a9fe267a8499c49607464e44fbba2">nm1</a> *pSrcVec, int nSize, <a class="el" href="nmtype_8h.html#aa06da44f55c38bad96f0d3f45534cd2e">int32b</a> *pnRes, void *pTmpBuf)</td></tr>
+<tr class="separator:ga1a151a3ed4f8bcc1acee825d4b4d42e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<p>Возвращает сумму всех элементов вектора. </p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ return = \sum\limits_{i = 0}^{(nSize - 1)} {pSrcVec[i]} \]" src="form_33.png" width="160" height="40"/>
+</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td>Входной вектор.</td></tr>
+    <tr><td class="paramname">pTmpBuf</td><td>Временный массив размера nSize 64-х разрядных слов.</td></tr>
+    <tr><td class="paramname">nSize</td><td>Размер векторов в элементах.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Сумма элементов вектора.</dd></dl>
+<dl class="section user"><dt></dt><dd> </dd></dl>
+<h2 class="groupheader">Функции</h2>
+<a id="ga1a151a3ed4f8bcc1acee825d4b4d42e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a151a3ed4f8bcc1acee825d4b4d42e1">&#9670;&nbsp;</a></span>nmppsSum_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppsSum_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="nmtype_8h.html#a996a9fe267a8499c49607464e44fbba2">nm1</a> *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="nmtype_8h.html#aa06da44f55c38bad96f0d3f45534cd2e">int32b</a> *&#160;</td>
+          <td class="paramname"><em>pnRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pTmpBuf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perfomance table 0</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2867  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2863  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2738  </td><td class="markdownTableBodyNone">0.27   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2873  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2738  </td><td class="markdownTableBodyNone">0.27   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2873  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+</table>
+<p>Perfomance table 1</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone">1878  </td><td class="markdownTableBodyNone">234.75   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">128  </td><td class="markdownTableBodyNone">1841  </td><td class="markdownTableBodyNone">14.38   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">3320  </td><td class="markdownTableBodyNone">3.24   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">2076  </td><td class="markdownTableBodyNone">1.01   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2823  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">10240  </td><td class="markdownTableBodyNone">2823  </td><td class="markdownTableBodyNone">0.28   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pTmpBuf  </th><th class="markdownTableHeadNone">pnRes  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone">1878  </td><td class="markdownTableBodyNone">234.75   </td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Вт 19 Окт 2021 12:31:06. Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

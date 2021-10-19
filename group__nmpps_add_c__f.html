@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=windows-1251"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nmpp: nmppsAddC</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">nmppsAddC<div class="ingroups"><a class="el" href="group__float.html">Функции с плавающей точкой</a> &raquo; <a class="el" href="group__nmpps_group__f.html">Векторные функции</a> &raquo; <a class="el" href="group__v_arithmetics__f.html">Арифметические операции</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Добавление к вектору константы..  
+<a href="#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ga57c459ca06bacd38aac34cb627ad9556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nmpps_add_c__f.html#ga57c459ca06bacd38aac34cb627ad9556">nmppsAddC_32fcr</a> (const <a class="el" href="structs__nm32fcr.html">nm32fcr</a> *pSrcVec, <a class="el" href="structs__nm32fcr.html">nm32fcr</a> *pDstVec, float nVal, int nSize)</td></tr>
+<tr class="separator:ga57c459ca06bacd38aac34cb627ad9556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ef8a72ab8a7b06c7a43f604d0d45d92"><td class="memItemLeft" align="right" valign="top"><a id="ga2ef8a72ab8a7b06c7a43f604d0d45d92"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>nmppsAddC_32f</b> (const nm32f *pSrcVec, nm32f *pDstVec, float C, int nSize)</td></tr>
+<tr class="separator:ga2ef8a72ab8a7b06c7a43f604d0d45d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<p>Добавление к вектору константы.</p>
+<p>. </p>
+<p>Сложение вектора с константой.</p>
+<p>.</p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ pDstVec[i] = pSrcVec[i] + nVal, \]" src="form_14.png" width="183" height="14"/>
+</p>
+ <pre class="fragment">\f[
+i = \overline{0 \ldots nSize-1}
+</pre><p> \f]</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td>Входной вектор.</td></tr>
+    <tr><td class="paramname">nVal</td><td>Добавляемая константа.</td></tr>
+    <tr><td class="paramname">nSize</td><td>Размер векторов в элементах.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Возвращаемые значения</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">pDstVec</td><td>Результирующий вектор.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd><em>void</em> </dd></dl>
+<dl class="section user"><dt></dt><dd></dd></dl>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ pDstVec[i] = pSrcVec[i] + nVal \]" src="form_16.png" width="179" height="14"/>
+</p>
+ <pre class="fragment">\f[
+i = \overline{0 \ldots nSize-1}
+</pre><p> \f]</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td>Входной вектор.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Возвращаемые значения</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">pDstVec</td><td>Результирующий вектор.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">C</td><td>Складываемая константа.</td></tr>
+    <tr><td class="paramname">nSize</td><td>Размер векторов в элементах.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd><em>void</em> </dd></dl>
+<dl class="section user"><dt></dt><dd> </dd></dl>
+<h2 class="groupheader">Функции</h2>
+<a id="ga57c459ca06bacd38aac34cb627ad9556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57c459ca06bacd38aac34cb627ad9556">&#9670;&nbsp;</a></span>nmppsAddC_32fcr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppsAddC_32fcr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structs__nm32fcr.html">nm32fcr</a> *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structs__nm32fcr.html">nm32fcr</a> *&#160;</td>
+          <td class="paramname"><em>pDstVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>nVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perfomance table 0</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4014  </td><td class="markdownTableBodyNone">1.96   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im4  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">3754  </td><td class="markdownTableBodyNone">1.83   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">3991  </td><td class="markdownTableBodyNone">1.95   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im4  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">3928  </td><td class="markdownTableBodyNone">1.92   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im4  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">3754  </td><td class="markdownTableBodyNone">1.83   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4014  </td><td class="markdownTableBodyNone">1.96   </td></tr>
+</table>
+<p>Perfomance table 1</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone">356  </td><td class="markdownTableBodyNone">44.50   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">128  </td><td class="markdownTableBodyNone">668  </td><td class="markdownTableBodyNone">5.22   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">2030  </td><td class="markdownTableBodyNone">1.98   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4011  </td><td class="markdownTableBodyNone">1.96   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4011  </td><td class="markdownTableBodyNone">1.96   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">nVal  </th><th class="markdownTableHeadNone">pDstVec  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone">356  </td><td class="markdownTableBodyNone">44.50   </td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Вт 19 Окт 2021 12:31:06. Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

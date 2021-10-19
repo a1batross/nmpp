@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=windows-1251"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nmpp: MTR_ProdSelfV</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">MTR_ProdSelfV<div class="ingroups"><a class="el" href="group__integer.html">Целочисленные функции</a> &raquo; <a class="el" href="group___m_t_r___group__.html">Матричные функции</a> &raquo; <a class="el" href="group__m_matrix_vector.html">Векторно-матричные операции</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Вычисляет произведение вектор-столбца на сопряженный к нему-же (получается квадратная матрица).  
+<a href="#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ga8ef25067e28aa4bafc07a8ddc6c7ae52"><td class="memItemLeft" align="right" valign="top"><a id="ga8ef25067e28aa4bafc07a8ddc6c7ae52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>MTR_ProdSelfV</b> (<a class="el" href="nmtype_8h.html#a87d35b1f604b85f93171c2fd4feb69e4">nm64sc</a> *pSrcVec, <a class="el" href="nmtype_8h.html#a87d35b1f604b85f93171c2fd4feb69e4">nm64sc</a> *pDstMtr, int nSize, void *pTmp)</td></tr>
+<tr class="separator:ga8ef25067e28aa4bafc07a8ddc6c7ae52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<p>Вычисляет произведение вектор-столбца на сопряженный к нему-же (получается квадратная матрица). </p>
+<pre class="fragment">\internal
+</pre><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td><br  />
+ Исходный вектор.</td></tr>
+    <tr><td class="paramname">nSize</td><td><br  />
+ Размер вектора в элементах.</td></tr>
+    <tr><td class="paramname">pTmp</td><td>Временный буфер размером nm64s[nSize*(nSize+1)*2].</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Возвращаемые значения</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">pDstMtr</td><td><br  />
+ Результирующая матрица.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd><em>void</em> <pre class="fragment">  \note
+      \~russian Нет аналога.
+      \~english ***********.
+
+    \~
+</pre> </dd></dl>
+<dl class="section user"><dt></dt><dd> </dd></dl>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Вт 19 Окт 2021 12:31:06. Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

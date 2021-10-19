@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=windows-1251"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nmpp: nmppsMaxIndx_</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">nmppsMaxIndx_<div class="ingroups"><a class="el" href="group__integer.html">Целочисленные функции</a> &raquo; <a class="el" href="group__nmpps_group__.html">Векторные функции</a> &raquo; <a class="el" href="group__v_select.html">Операции сравнения</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Поиск значения максимального элемента вектора и его положения (положений) в векторе..  
+<a href="#details">Подробнее...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ga1e9e2d8bf6ad4c8c382174424d212e69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nmpps_max_indx__.html#ga1e9e2d8bf6ad4c8c382174424d212e69">nmppsMaxIndx_8s</a> (<a class="el" href="group__nmvectype.html#ga871a7c1018a70544e4ce34f440840b9c">nm8s7b</a> *pSrcVec, int nSize, int *nIndex, <a class="el" href="nmtype_8h.html#a76ec3af99402ffbf69b57b18f11defad">int8b</a> *nMaxValue, void *pLTmpBuf, void *pGTmpBuf, int nSearchDir)</td></tr>
+<tr class="separator:ga1e9e2d8bf6ad4c8c382174424d212e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabaf1a66d6d6c63119b06071cd5179802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nmpps_max_indx__.html#gabaf1a66d6d6c63119b06071cd5179802">nmppsMaxIndx_16s</a> (<a class="el" href="group__nmvectype.html#gad8babf625e9f2a3dddab71587bb87ca3">nm16s15b</a> *pSrcVec, int nSize, int *nIndex, <a class="el" href="nmtype_8h.html#ac616dda8e00b5e305cd64c816cbd8ca2">int16b</a> *nMaxValue, void *pLTmpBuf, void *pGTmpBuf, int nSearchDir)</td></tr>
+<tr class="separator:gabaf1a66d6d6c63119b06071cd5179802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0794db9236df364b4240045212937583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nmpps_max_indx__.html#ga0794db9236df364b4240045212937583">nmppsMaxIndx_32s</a> (<a class="el" href="nmtype_8h.html#a40bd6583b76e1fd3078c89f2e09d7ff2">nm32s31b</a> *pSrcVec, int nSize, int *nIndex, <a class="el" href="nmtype_8h.html#aa06da44f55c38bad96f0d3f45534cd2e">int32b</a> *nMaxValue, void *pLTmpBuf, void *pGTmpBuf, int nSearchDir)</td></tr>
+<tr class="separator:ga0794db9236df364b4240045212937583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<p>Поиск значения максимального элемента вектора и его положения (положений) в векторе.</p>
+<p>. </p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ nMaxValue = \mathop {max} \limits_{i} \left(pSrcVec[i] \right) \]" src="form_53.png" width="180" height="19"/>
+</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td>Входной вектор.</td></tr>
+    <tr><td class="paramname">nSize</td><td>Размер вектора в элементах. Занимаемый этим вектором объем памяти должен быть кратен 64 длинным словам (nm64s[64,128,...]).</td></tr>
+    <tr><td class="paramname">pLTmpBuf</td><td>Временный массив на локальной шине из nSize элементов.</td></tr>
+    <tr><td class="paramname">pGTmpBuf</td><td>Временный массив на глобальной шине .</td></tr>
+    <tr><td class="paramname">nSearchDir</td><td>Направление поиска максимума. <br  />
+ При nSearchDir = 1, поиск ведется от начала массива.<br  />
+ При nSearchDir = -1, поиск ведется от конца массива.<br  />
+ Значение максимального элемента.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Возвращаемые значения</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">nIndex</td><td>Индекс первого найденного максимума среди равных.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd><em>void</em> <br  />
+ </dd></dl>
+<dl class="section user"><dt>Restrictions:</dt><dd>Ограничения на параметры приводятся в описании каждой из функций.</dd></dl>
+<p><br  />
+ </p><dl class="section user"><dt>Restrictions:</dt><dd>Диапазоны входных элементов могут быть "плавающими" <br  />
+ Например для данных nm16s15b максимальный и минимальный элементы массива должны отличатся не более чем на 2^15-1. Примеры допустимых диапазонов входных чисел для типа nm16s15b :</dd></dl>
+<p>Here are some examples of admissible ranges for input numbers: <br  />
+ [0000h..7FFFh]=[ 0..+32767 ] [FFFFh..7FFEh]=[ -1..+32766 ] [C000h..3FFFh]=[-16384..+16383 ] [8000h..0000h]=[-32768..0 ] </p><dl class="section user"><dt></dt><dd> </dd></dl>
+<h2 class="groupheader">Функции</h2>
+<a id="gabaf1a66d6d6c63119b06071cd5179802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabaf1a66d6d6c63119b06071cd5179802">&#9670;&nbsp;</a></span>nmppsMaxIndx_16s()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppsMaxIndx_16s </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__nmvectype.html#gad8babf625e9f2a3dddab71587bb87ca3">nm16s15b</a> *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>nIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="nmtype_8h.html#ac616dda8e00b5e305cd64c816cbd8ca2">int16b</a> *&#160;</td>
+          <td class="paramname"><em>nMaxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pLTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pGTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSearchDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perfomance table 0</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">4276  </td><td class="markdownTableBodyNone">66.81   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">6220  </td><td class="markdownTableBodyNone">6.07   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">5904  </td><td class="markdownTableBodyNone">2.88   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">4521  </td><td class="markdownTableBodyNone">70.64   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">6498  </td><td class="markdownTableBodyNone">6.35   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">6075  </td><td class="markdownTableBodyNone">2.97   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">6518  </td><td class="markdownTableBodyNone">101.84   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">8276  </td><td class="markdownTableBodyNone">8.08   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">8114  </td><td class="markdownTableBodyNone">3.96   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">4512  </td><td class="markdownTableBodyNone">70.50   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">6330  </td><td class="markdownTableBodyNone">6.18   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">6054  </td><td class="markdownTableBodyNone">2.96   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">5904  </td><td class="markdownTableBodyNone">2.88   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">6518  </td><td class="markdownTableBodyNone">101.84   </td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga0794db9236df364b4240045212937583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0794db9236df364b4240045212937583">&#9670;&nbsp;</a></span>nmppsMaxIndx_32s()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppsMaxIndx_32s </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="nmtype_8h.html#a40bd6583b76e1fd3078c89f2e09d7ff2">nm32s31b</a> *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>nIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="nmtype_8h.html#aa06da44f55c38bad96f0d3f45534cd2e">int32b</a> *&#160;</td>
+          <td class="paramname"><em>nMaxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pLTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pGTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSearchDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perfomance table 0</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">5454  </td><td class="markdownTableBodyNone">85.22   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">7847  </td><td class="markdownTableBodyNone">7.66   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">8814  </td><td class="markdownTableBodyNone">4.30   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">5706  </td><td class="markdownTableBodyNone">89.16   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">7891  </td><td class="markdownTableBodyNone">7.71   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">9307  </td><td class="markdownTableBodyNone">4.54   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">13880  </td><td class="markdownTableBodyNone">3==.=&lt;   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">17967  </td><td class="markdownTableBodyNone">17.55   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">20559  </td><td class="markdownTableBodyNone">10.04   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">5712  </td><td class="markdownTableBodyNone">89.25   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">7879  </td><td class="markdownTableBodyNone">7.69   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">9093  </td><td class="markdownTableBodyNone">4.44   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">8814  </td><td class="markdownTableBodyNone">4.30   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">13880  </td><td class="markdownTableBodyNone">3==.=&lt;   </td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga1e9e2d8bf6ad4c8c382174424d212e69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1e9e2d8bf6ad4c8c382174424d212e69">&#9670;&nbsp;</a></span>nmppsMaxIndx_8s()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppsMaxIndx_8s </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__nmvectype.html#ga871a7c1018a70544e4ce34f440840b9c">nm8s7b</a> *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>nIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="nmtype_8h.html#a76ec3af99402ffbf69b57b18f11defad">int8b</a> *&#160;</td>
+          <td class="paramname"><em>nMaxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pLTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pGTmpBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSearchDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perfomance table 0</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">3847  </td><td class="markdownTableBodyNone">60.11   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">5428  </td><td class="markdownTableBodyNone">5.30   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4586  </td><td class="markdownTableBodyNone">2.24   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">4076  </td><td class="markdownTableBodyNone">63.69   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">5659  </td><td class="markdownTableBodyNone">5.53   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4738  </td><td class="markdownTableBodyNone">2.31   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">12182  </td><td class="markdownTableBodyNone">190.34   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">15432  </td><td class="markdownTableBodyNone">15.07   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">16035  </td><td class="markdownTableBodyNone">7.83   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">4063  </td><td class="markdownTableBodyNone">63.48   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">1024  </td><td class="markdownTableBodyNone">5688  </td><td class="markdownTableBodyNone">5.55   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">-1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4850  </td><td class="markdownTableBodyNone">2.37   </td></tr>
+</table>
+<p>The best configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">2048  </td><td class="markdownTableBodyNone">4586  </td><td class="markdownTableBodyNone">2.24   </td></tr>
+</table>
+<p>The worst configuration:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">pSrcVec  </th><th class="markdownTableHeadNone">pLTmpBuf  </th><th class="markdownTableHeadNone">pGTmpBuf  </th><th class="markdownTableHeadNone">nMaxValue  </th><th class="markdownTableHeadNone">nIndex  </th><th class="markdownTableHeadNone">nSearchDir  </th><th class="markdownTableHeadNone">nSize  </th><th class="markdownTableHeadNone">ticks  </th><th class="markdownTableHeadNone">ticks/elem   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">im1  </td><td class="markdownTableBodyNone">im2  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">im0  </td><td class="markdownTableBodyNone">im3  </td><td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">64  </td><td class="markdownTableBodyNone">12182  </td><td class="markdownTableBodyNone">190.34   </td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Вт 19 Окт 2021 12:31:07. Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

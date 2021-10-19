@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=windows-1251"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>nmpp: Переупорядочивание изображений</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Переупорядочивание изображений<div class="ingroups"><a class="el" href="group__integer.html">Целочисленные функции</a> &raquo; <a class="el" href="group__nmppi_group.html">Функции обработки изображений</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ga7bb08b1783f52464ee49fb8ac378d181"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i_reodering.html#ga7bb08b1783f52464ee49fb8ac378d181">nmppiSplitIntoBlocks8x8</a> (<a class="el" href="group__nmvectype.html#ga0b5a4182e80e797c3a7589069b9fc2e4">nm8s</a> *pSrcImg, <a class="el" href="group__nmvectype.html#ga0b5a4182e80e797c3a7589069b9fc2e4">nm8s</a> *pDstBlockSeq, int nWidth, int nHeight)</td></tr>
+<tr class="memdesc:ga7bb08b1783f52464ee49fb8ac378d181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Блочное перупорядочивание изображений.  <a href="group__i_reodering.html#ga7bb08b1783f52464ee49fb8ac378d181">Подробнее...</a><br /></td></tr>
+<tr class="separator:ga7bb08b1783f52464ee49fb8ac378d181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<h2 class="groupheader">Функции</h2>
+<a id="ga7bb08b1783f52464ee49fb8ac378d181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7bb08b1783f52464ee49fb8ac378d181">&#9670;&nbsp;</a></span>nmppiSplitIntoBlocks8x8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmppiSplitIntoBlocks8x8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__nmvectype.html#ga0b5a4182e80e797c3a7589069b9fc2e4">nm8s</a> *&#160;</td>
+          <td class="paramname"><em>pSrcImg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__nmvectype.html#ga0b5a4182e80e797c3a7589069b9fc2e4">nm8s</a> *&#160;</td>
+          <td class="paramname"><em>pDstBlockSeq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Блочное перупорядочивание изображений. </p>
+<pre class="fragment">\~russian
+    \defgroup iBlockReodering Блочное переупорядочивание
+\~english
+    \defgroup iBlockReodering Block reodering.
+</pre> <pre class="fragment">\defgroup nmppiSplitIntoBlocks nmppiSplitIntoBlocks
+\ingroup iBlockReodering
+\brief
+    \~russian Преобразует изображение в последовательность квадратных блоков.
+    \~english Transform image into the sequence of square blocks.
+
+\~
+\param pSrcImg
+  \~russian Исходное изображение
+  \~english Source Image
+\param pDstBlockSeq
+\~russian Выходная последовательность блоков
+\~english Resaul block sequence
+\param nWidth
+  \~russian Ширина исходного изображения в пикселах. nWidth =[8,16,24...]
+  \~english Source Image Width. nWidth =[8,16,24...]
+\param nHeight
+  \~russian Высота исходного изображения в пикселах. nHeight=[8,16,24...]
+  \~english Source Image Height. nHeight=[8,16,24...]
+
+\note
+\~russian Исходное изображение имеет вид
+\~english ******************************
+\~
+\verbatim
+    [A00|A01|A02|A03|A04|A05|A06|A07|B00|B01|..|B07|C00|....H07]
+    [A10|A11|A12|A13|A14|A15|A16|A17|B10|B11|..|B17|C10|....H17]
+    [A20|A21|A22|A23|A24|A25|A26|A27|B20|B21|..|B27|C20|....H27]
+    [A30|A31|A32|A33|A34|A35|A36|A37|B30|B31|..|B37|C30|....H37]
+    ............................................................
+    [A70|A71|A72|A73|A74|A75|A76|A77|B70|B71|..|B77|C70|....H77]
+    ............................................................
+    [I00|I01|I02|I03|I04|I05|I06|I07|J00|J01|..................]
+    [I10|I11|I12|I13|I14|I15|I16|I17|J00|I09|...................
+    ........................................................Z77]
+</pre><p> Выходная последовательность блоков имеет вид</p>
+<pre class="fragment">    [A00|A01|A02|...|A06|A07|A20|A21|...|A77|B00|B01|B02|...|B07|B10|...|H77|
+    [I00|I01|I02|...|I06|I07]I10|I11|...|I77|J00|J01|J02|...............|Z77|       
+</pre> <dl class="section user"><dt></dt><dd> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Вт 19 Окт 2021 12:31:05. Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>
